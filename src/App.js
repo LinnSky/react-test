@@ -1,7 +1,10 @@
+import Header from './components/header/index';
+import './app.scss';
+
 function App() {
   return (
     <div className="App">
-      test
+      <Header />
     </div>
   );
 }
